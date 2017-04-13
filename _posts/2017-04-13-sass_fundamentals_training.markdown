@@ -13,7 +13,7 @@ I've been a subscriber for over a year, and Douglas Crockford's course: [The Goo
 
 As my skills level up, I've explored other frameworks like [React.js with Brian Holt)](https://frontendmasters.com/courses/complete-intro-react/) and [Angular.js with Lukas Ruebbelke](https://frontendmasters.com/courses/elm/).
 
-As frontend engineers, I'm sure you have experienced frustration with CSS3 and its many quirks.  Ever tried to float an element without a clear fix? 
+As frontend engineers, I'm sure you have experienced frustration with CSS3 and its many quirks.  Ever tried to float an element without a clear fix?  Or coming back to edit your CSS styles after a few weeks?
 
 ![](http://a.memegen.com/JzOjFs.gif)
 
@@ -28,8 +28,9 @@ This is where a CSS preprocessor like SASS comes in handy.
 * Provide extra functionality like variables, nesting and functions
 * Write D.R.Y code
 
+Let's dive into SASS!
 
-## Nesting 
+## 1. Nesting 
 
 Mirroring HTML's clearly nested visual hierachy, SASS enables you to write CSS with nested CSS selectors. Organizing styles with nesting helps to make your code more readable.
 
@@ -64,7 +65,7 @@ Mirroring HTML's clearly nested visual hierachy, SASS enables you to write CSS w
 }
 ```
 
-## Importing Partials 
+## 2. Importing Partials 
 
 In CSS, you can use `@import` to include several stylesheets in your main styles.css file.  But each` @import `results in a new round-trip HTTP request, which affects performance as your app grows.
 
@@ -177,7 +178,7 @@ If you only want styles to apply to certain elements, such as `sidebar` , you ca
 
 ```
 
-## Mixins
+## 3. Mixins
 
 A mixin lets you make groups of CSS declarations that you want to reuse throughout your app, a practical example is for vendor prefix.
 
@@ -210,3 +211,5 @@ A mixin lets you make groups of CSS declarations that you want to reuse througho
 }
 
 ```
+
+
