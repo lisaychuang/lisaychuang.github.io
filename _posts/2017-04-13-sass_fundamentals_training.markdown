@@ -200,7 +200,7 @@ A `@mixin` lets you make groups of CSS declarations that you want to reuse throu
 .column-1 { @include border-width(5px); }
 ```
 
-**SASS compiles to CSS **
+** SASS compiles to CSS **
 
 ```
 .column-1 {
@@ -225,7 +225,7 @@ However, if you apply `@mixin` to multipl selectors, you could be repeating your
 .column-3 { @include border-width(5px); }
 ```
 
-**SASS compiles to CSS **
+** SASS compiles to CSS **
 
 ```
 .column-1 {
