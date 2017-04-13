@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "SASS Fundamentals training"
-date:   2017-04-13 17:22:43 +0000
+title:  "SASS Fundamentals "
+date:   2017-04-13 13:22:43 -0400
 ---
 
 
@@ -20,6 +20,8 @@ As frontend engineers, I'm sure you have experienced frustration with CSS3 and i
 This is where a CSS preprocessor like SASS comes in handy.
 
 ## Why use preprocessors?
+
+![](http://www.growingwiththeweb.com/images/2014/03/17/preprocessors.png)
 
 * Easy to [setup tools](http://sass-lang.com/install)
 * Easier to maintain and organize style
@@ -116,6 +118,7 @@ Always name your variables with the `$` symbol.
 
 #### EXAMPLE: [Medium's Brand Style](https://www.behance.net/gallery/7226653/Medium-Brand-Development) color palette
 
+![](https://mir-s3-cdn-cf.behance.net/project_modules/disp/68ba2055538977.56098d9c32eaa.jpg)
 
 ```
 // _variables.scss
