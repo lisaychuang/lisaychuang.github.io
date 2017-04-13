@@ -180,7 +180,7 @@ If you only want styles to apply to certain elements, such as `sidebar` , you ca
 
 ## 3. Mixins
 
-A mixin lets you make groups of CSS declarations that you want to reuse throughout your app, a practical example is for vendor prefix.
+A `@mixin` lets you make groups of CSS declarations that you want to reuse throughout your app, a practical example is for vendor prefix.
 
 #### EXAMPLE: Create a Mixin for border-width, using a variable $width 
 
@@ -211,5 +211,48 @@ A mixin lets you make groups of CSS declarations that you want to reuse througho
 }
 
 ```
+
+As you can see, `@mixin` code snippets will be merged into `.column-1`. 
+
+However, if you apply `@mixin` to multipl selectors, you could be repeating your code which increase the size of your CSS file (and is no longer D.R.Y)!  Be aware of this issue and how you use `@mixin`s!
+
+
+```
+// app.scss
+
+.column-1 { @include border-width(5px); }
+.column-2 { @include border-width(5px); }
+.column-3 { @include border-width(5px); }
+```
+
+**SASS compiles to CSS **
+
+```
+.column-1 {
+  -webkit-border-width: 5px;
+  -moz-border-width: 5px;
+  -ms-border-width: 5px;
+  border-width: 5px;
+}
+
+.column-2 {
+  -webkit-border-width: 5px;
+  -moz-border-width: 5px;
+  -ms-border-width: 5px;
+  border-width: 5px;
+}
+
+.column-3 {
+  -webkit-border-width: 5px;
+  -moz-border-width: 5px;
+  -ms-border-width: 5px;
+  border-width: 5px;
+}
+
+```
+
+## 4. Extending Placeholders 
+
+
 
 
