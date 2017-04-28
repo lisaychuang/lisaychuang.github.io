@@ -27,7 +27,7 @@ Today, I ventured to[ Impact Hub Berlin](http://berlin.impacthub.net/) seeing it
 
 As luck with have it, **Professor Muhammad Yunus** was speaking at Impact Hub today! Tickets were sold out, but since I was working out of the hub today, I knew I could keep checking back until I got a seat!
 
-### 7 year's ago...
+## 7 year's ago...
 ![](https://fortunedotcom.files.wordpress.com/2015/08/shotki-doi-2-ccthomas-haley.jpg?w=690&h=388&crop=1)
 
 I first learned about Prof. Yunu's work with [Grameen Bank](http://www.grameen.com/) and the [Prevention of Cataract Blindness Project](http://www.muhammadyunus.org/index.php/social-business/grameen-gc-eye-care-hospital) in university as case studies for a Social Business course.   Started in 1983, the Grameen Bank provided credit to the poorest of the poor in rural Bangladesh, without any collateral. Professor Yunus, reasoned that if financial resources can be made available to the poor people on terms and conditions that are appropriate and reasonable, “these millions of small people with their millions of small pursuits can add up to create the biggest development wonder.”
@@ -38,7 +38,7 @@ In 2010, I attended Prof. Yunu's lecture entitled[ “Building Social Business](
 
 At today's presentation, **"All human beings are entrepreneurs",** Prof. Yunus shared his thoughts on entrepreneurship, youth unemployment, and how the Olympics can become a social business.
 
-### Youth Unemployment
+## Youth Unemployment
 ![](https://preview.ibb.co/gM4Bo5/MY.png)
 
 Prof. Yunus shared his concern for youth unemployment around the world, and more specifically in Bangladesh where [over 40% of young Bangladeshis are unemployed!](http://www.asianews.it/news-en/Bangladesh%E2%80%99s-youth-unemployment,-highest-in-South-Asia-35596.html)  To combat thish, Yunus centers hosts daily [Social Business Design Labs](http://www.muhammadyunus.org/index.php/design-lab/about-social-business-design-lab) where young people come together to brainstorm, develop social business ideas and learn essential business skills. 
@@ -56,7 +56,7 @@ Prof. Yunus shared his experience working with these unemployed young people, an
 > Even if you fail, that just means things didn't click the first time.  Don't worry, let's try again and this time, more things will click.  Imagine the world you want, and build the roads to get there. "
 
 
-### Entrepreneurship
+## Entrepreneurship
 ![](http://nima-sb.com/wp-content/uploads/2016/02/A-woman-engineers-demonstr_03.jpg)
 
 We started off with short introductions around the room, where some of local entrepreneurs shared their social business models and the challenges they face. Many of them raised similar questions for Prof. Yunus:
@@ -77,7 +77,7 @@ He also referenced the success of [TOMS Shoes' Buy One Gift One (BOGO)](http://w
 
 ![TOMS Shoes](https://preview.ibb.co/kgSLgQ/TOMS.png)
 
-### Olympics to promote entrepreneurship
+## Olympics to promote entrepreneurship
 ![Muhammad Yunus at the Olympics](https://preview.ibb.co/eVZ81Q/Olmpics_MY.jpg)
 
 Closing the session, Prof. Yunus shared stories from his time at the Olympics last year.  
@@ -92,7 +92,7 @@ Prof. Yunus suggests that placing a focus on youth entrepreneurship can “give 
 
 Prof. Yunus engaged in conversation with local government bodies and corporations, encouraging them to think beyond the Olympics for infrastructure planning.   After all, the Olympic facilities will be used by the people long after the Olympic games are over. 
 
-### Final thoughts
+## Final thoughts
 Today was a happy accident, and I'm so thankful that I was able to attend Prof. Yunu's talk!  
 
 Working through Ruby right now, I have been feeling a bit stuck because working with backend is hard!  But I strongly believe coding is a key skill of the future, and by mastering this skill will enable me to contribute to the wold. Whether it be joining a socially conscious company, or starting personal social business projects. 
