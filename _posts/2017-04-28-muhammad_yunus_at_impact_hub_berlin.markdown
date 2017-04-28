@@ -56,7 +56,6 @@ Prof. Yunus shared his experience working with these unemployed young people, an
 > Even if you fail, that just means things didn't click the first time.  Don't worry, let's try again and this time, more things will click.  Imagine the world you want, and build the roads to get there. "
 
 
-
 ### Entrepreneurship
 ![](http://nima-sb.com/wp-content/uploads/2016/02/A-woman-engineers-demonstr_03.jpg)
 
