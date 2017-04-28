@@ -5,7 +5,7 @@ date:   2017-04-28 11:11:25 -0400
 ---
 
 
-When I'm on the road, I like to work out of local coworking spaces like [WeWork,](https://www.wework.com/) [Impact Hub](http://www.impacthub.net/), and there are usually a variety of local spaces.  Usually a quick Google search of **"Top X coworking spaces in Y"** will give you a list to start.
+When I'm on the road, I enjoy working out of local coworking spaces like [WeWork,](https://www.wework.com/) [Impact Hub](http://www.impacthub.net/), and there are usually a variety of local spaces.  Usually a quick Google search of **"Top X coworking spaces in Y"** will give you a list to start.
 
 There are many benefits to working out of coworking spaces, such as:
 
@@ -83,7 +83,7 @@ He also referenced the success of [TOMS Shoes' Buy One Gift One (BOGO)](http://w
 
 Closing the session, Prof. Yunus shared stories from his time at the Olympics last year.  
 
-The International Olympic Committee (IOC) invited him to give a keynote in Rio de Janeiro in August, 2016. Using this opportunity, Prof. Yunus worked with the IOC to leverage the excitement around sports as enabler to achieve the Sustainable Development Goals (SDG).
+The International Olympic Committee (IOC) invited him to [give a keynote in Rio de Janeiro](https://www.olympic.org/news/professor-muhammad-yunus-invites-olympic-movement-to-promote-entrepreneurship-and-social-business) in August, 2016. Using this opportunity, Prof. Yunus worked with the IOC to leverage the excitement around sports as enabler to achieve the Sustainable Development Goals (SDG).
 
 > “The sports world has so much power because it draws on the emotion, the excitement, […] and on all the hopes and aspirations of people....  sport has a unique ability to capture the minds of young people and open up their imagination, helping them develop independence, self-confidence, overcome odds and make the impossible possible – all key attributes for entrepreneurship. "
 
