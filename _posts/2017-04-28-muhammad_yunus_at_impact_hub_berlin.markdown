@@ -48,11 +48,11 @@ The center reviews thousands of applications every month, and successful applica
 Prof. Yunus shared his experience working with these unemployed young people, and how they often believe they have no business ideas nor acumen to start their own business.  To which Prof. Yunus replies:
 
 > "Have you met the many women, often illiterate who have started a business with a Grameen Bank loan?   These women made a big decision when they decided to ask for a loan, and many of them have never started a business before!  
-
+>
 > They worked hard to earn money in order to repay their loan, and many have gone on to start second, third businesses.   
-
+>
 > If these illiterate women can start a successful business, what do you think you can achieve with your education and technology?  Be courageous, discover your inner creative power and your worth through entrepreneurship!
-
+>
 >  Even if you fail, that just means things didn't click the first time.  Don't worry, let's try again and this time, more things will click.  Imagine the world you want, and build the roads to get there. "
 
 
