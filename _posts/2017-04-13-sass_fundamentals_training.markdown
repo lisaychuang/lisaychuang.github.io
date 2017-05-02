@@ -3,9 +3,8 @@ layout: post
 title:  "SASS Fundamentals "
 date:   2017-04-13 13:22:43 -0400
 tags: 
-  - CSS
   - Frontend
-  - Trainings
+  - Training
 description: 
 image: http://yesayasoftware.com/wp-content/uploads/2017/01/sass-logo.jpg
 ---

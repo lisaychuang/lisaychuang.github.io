@@ -3,9 +3,9 @@ baseurl: ""
 
 # WTF IS THIS SHIT?????!!!!!!! :O
 collections:
-  tags:
+  my_tags:
     output: true
-    permalink: /tags/:name/
+    permalink: /tag/:name/
 
 # Color settings (Hex value without #)
 color_alpha: feeaeb
@@ -43,3 +43,11 @@ sass:
 
 # Gems
 gems: [jekyll-sitemap, octopress-autoprefixer, jekyll-paginate, jekyll-feed]
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: tag_index
