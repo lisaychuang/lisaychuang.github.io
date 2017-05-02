@@ -3,6 +3,7 @@ layout: post
 title:  "An adventure into Code"
 date:   2017-03-29 11:38:18 -0400
 categories: 
+  - Nomad
 description: 
 image: https://s-media-cache-ak0.pinimg.com/originals/3c/0f/e4/3c0fe46571bcdfd94dcac8b26d757caa.jpg
 ---

@@ -3,6 +3,9 @@ layout: post
 title:  "Muhammad Yunus @ Impact Hub Berlin"
 date:   2017-04-28 11:11:25 -0400
 categories: 
+  - Nomad
+  - Germany
+  - Events
 description: 
 image: http://sustainabilitynext.in/wp-content/uploads/2016/01/Muhammad-Yunus-800x440.jpg
 ---
