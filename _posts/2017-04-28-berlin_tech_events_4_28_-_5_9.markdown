@@ -2,10 +2,15 @@
 layout: post
 title:  "Berlin tech events 4/28 - 5/9"
 date:   2017-04-28 07:36:29 -0400
+categories: 
+description: 
+image: /assets/images/placeholders/placeholder-9.jpg
 ---
 
 
 I'm currently in Berlin, Germany and will be attending [JSConf EU on May 6-7, 2017](http://2017.jsconf.eu/)!
+
+![My Image](/assets/images/placeholders/placeholder-11.jpg)
 
 Browsing through Meetup.com, I've curated a list of interesting tech-related meetups happening in Berlin from today to May 9th.  
 

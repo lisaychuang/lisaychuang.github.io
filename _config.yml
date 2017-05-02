@@ -1,21 +1,37 @@
 # Site settings
-title: Code for Spontaneity
-header-img: img/home-bg.png
-email: lisa.yc.huang@gmail.com
-copyright_name: lisaychuang
-description: > # this means to ignore newlines until "baseurl:"
-  A journey into code
-baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: bestCapeTown
-github_username:  lisaychuang
-learn_profile: lisaychuang
-email_username: lisa.yc.huang@gmail.com
+baseurl: "" 
+
+# Color settings (Hex value without #)
+color_alpha: feeaeb
+color_beta: 05009e
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Instagram API
+instagram_key: 
+instagram_caption: true
+
+# SEO settings
+title: Cartwheel
+description: 
+url: ""
+email:
+twitter_username: 
+default_img: 
+
+# Profile settings
+social:
+  twitter: 
 
 # Build settings
+exclude: ["node_modules", "gulpfile.js", "assets/js/app.js", "README.md", "Gemfile", "Gemfile.lock"]
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+permalink: /:year/:month/:day/:title/
 
-gems: [jekyll-paginate, jekyll-feed]
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-sitemap, octopress-autoprefixer]

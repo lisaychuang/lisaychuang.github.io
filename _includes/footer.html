@@ -1,59 +1,29 @@
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    <li>
-                        <a href="https://learn.co/{{ site.github_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <span class="learn-icon">&#66;</span>
-                            </span>
-                        </a>
-                    </li>
-                    {% if site.twitter_username %}
-                    <li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.facebook_username %}
-                    <li>
-                        <a href="https://www.facebook.com/{{ site.facebook_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    {% if site.github_username %}
-                    <li>
-                        <a href="https://github.com/{{ site.github_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                </ul>
-                <p class="copyright text-muted">Copyright &copy; {{ site.copyright_name }} {{ site.time | date: '%Y' }}</p>
-            </div>
-        </div>
-    </div>
+<footer class="footer section-padding--half bg-alpha">
+  <div class="footer__container grid">
+    <p>&copy;{{ site.time | date: "%Y" }} {{ site.title }}. Coded With Code by Thomas Vaeth.</p>
+    {% if site.email or site.social %}
+      <ul class="footer__social">
+        {% if site.email %}
+          <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email }}"></a></li>
+        {% endif %}
+        {% for social in site.social %}
+          <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
 </footer>
 
-<!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/jquery.min.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/app.min.js' | prepend: site.baseurl }}"></script>
+{% if site.instagram_key %}
+  <script type="text/javascript">
+    if ($('body').attr('id') === 'home') {
+      instafetch.init({
+        accessToken: '{{ site.instagram_key }}',
+        numOfPics: 6,
+        caption: {{ site.instagram_caption }}
+      });
+    }  
+  </script>
+{% endif %}

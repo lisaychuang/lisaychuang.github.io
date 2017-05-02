@@ -1,24 +1,85 @@
-#Clean Blog by Start Bootstrap - Jekyll Version
+# 🤸‍ – A Blog Theme for Jekyll
+Cartwheel is a blog theme for Jekyll built using HTML, Sass, and jQuery. External stylesheets and libraries included are Google Fonts, Font Awesome, Normalize.CSS, Instafetch.js, Owl Carousel 2, Smooth Scroll, and WOW.js.
 
-The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
+## Installation
+All dependencies are saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already).
 
-###[View Live Demo &rarr;](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
+## Edit Theme
+I made everything as easy as possible to edit. Most things can be found in the ````_config.yml````, but if more editing is required digging through the code will be required. The ````head.html```` file is in the ````_includes```` folder and the Sass variables are found in the ````_base.scss```` file in the ````_sass```` folder.
 
-## Before You Begin
+### _config.yml
 
-In the _config.yml file, the base URL is set to /startbootstrap-clean-blog-jekyll which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
+#### Site Settings
+    baseurl: ""
 
-It should look like this:
-`baseurl: ""`
+* ````baseurl```` - Path of blog if adding this on to another website
 
-## What's Included
+#### Color Settings
+    color_alpha: feeaeb
+    color_beta: 05009e
 
-A full Jekyll environment is included with this theme. If you have Jekyll installed, simply run `jekyll serve` in your command line and preview the build in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
+* ````color_alpha```` - Main color
+* ````color_beta```` - Secondary color
 
-A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
+#### Google Analytics
+    google_analytics: UA—XXXXXXXX-X
 
-You can run `jekyll serve --watch` and `grunt watch` at the same time to watch for changes and then build them all at once.
+* ````google_analytics```` - Option field to replace with correct Google Analytics code
 
-## Support
+#### Instagram API
+    instagram_key: 
+    instagram_caption: 
 
-Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
+* ````instagram_key```` - See [Instafetch.js docs](http://thomasvaeth.com/instafetch.js/) for API key information
+* ````instagram_caption```` - true or false to display Instagram captions
+
+#### SEO Settings
+    title: 
+    description: 
+    url: ""
+    email:
+    twitter_username: 
+    default_img: 
+
+* ````title```` - Title of blog
+* ````description```` - Description of blog (recommended to not go over 160 characters)
+* ````url```` - URL of main website
+* ````email```` - Email address
+* ````twitter_username```` - Twitter username
+* ````default_img```` - Image that will appear when posting links on social networks
+
+#### Profile Settings
+    name:  
+    social:
+      github: 
+
+* ````name```` - Full name for SEO purposes
+* ````social```` - List of social networks for icons in the contact card and the footer ([Font Awesome](http://fontawesome.io/) is used, so only match the name of the icon, but do not include ````fa-````)
+
+
+#### Build Settings
+    exclude: ["node_modules", "gulpfile.js", "assets/js/app.js", "README.md", "Gemfile", "Gemfile.lock"]
+    permalink: /:year/:month/:day/:title/
+
+* ````include```` - Folders that are not automatically included in Jekyll
+* ````exclude```` - Folders that are excluded from `_site`
+* ````permalink```` - URL structure of blog posts
+
+### _posts
+    ---
+    layout: post
+    title: ""
+    date: 
+    categories:
+    description: 
+    image: 
+    image-sm:
+    ---
+
+This is the YAML front matter block for blog posts.
+* ````layout```` - This field will always be post
+* ````title```` - The title of the blog post
+* ````date```` - The date that will appear on the blog post
+* ````tags```` - Optional field that can be entered as an array or a list
+* ````description```` - Optional field for SEO (recommended to not go over 160 characters)
+* ````image```` - The blog theme was designed for 2000x1200px images (optimize your images because this is a picture heavy theme)
