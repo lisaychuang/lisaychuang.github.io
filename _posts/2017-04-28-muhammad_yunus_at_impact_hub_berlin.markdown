@@ -4,7 +4,7 @@ title:  "Muhammad Yunus @ Impact Hub Berlin"
 date:   2017-04-28 11:11:25 -0400
 categories: 
 description: 
-image: /assets/images/placeholders/placeholder-9.jpg
+image: http://sustainabilitynext.in/wp-content/uploads/2016/01/Muhammad-Yunus-800x440.jpg
 ---
 
 
