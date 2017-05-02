@@ -2,7 +2,7 @@
 layout: post
 title:  "Berlin tech events 4/28 - 5/9"
 date:   2017-04-28 07:36:29 -0400
-categories: 
+tags: 
   - Nomad
   - Germany
   - Events

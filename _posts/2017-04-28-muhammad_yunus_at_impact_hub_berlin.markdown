@@ -2,7 +2,7 @@
 layout: post
 title:  "Muhammad Yunus @ Impact Hub Berlin"
 date:   2017-04-28 11:11:25 -0400
-categories: 
+tags: 
   - Nomad
   - Germany
   - Events
