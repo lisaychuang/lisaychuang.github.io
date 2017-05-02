@@ -1,6 +1,12 @@
 # Site settings
 baseurl: "" 
 
+# WTF IS THIS SHIT?????!!!!!!! :O
+collections:
+  tags:
+    output: true
+    permalink: /tags/:name/
+
 # Color settings (Hex value without #)
 color_alpha: feeaeb
 color_beta: 05009e

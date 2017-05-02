@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+{% assign tags = site.tags | where: "slug", post.tag %}
+{% assign tag = tags[0] %}
+{% if tag %}
+    {% capture tag_content %}<a class="label" href="{{ tag.url }}">{{ tag.name }}</a>{% endcapture %}
+{% endif %}
 <article class="bg-grey" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-mast bg-alpha">
@@ -23,6 +28,9 @@ layout: default
           {% endfor %}
         </span>
       {% endif %}
+      <hr>
+<p id="post-meta">{{ tag_content }}</p>
+      <hr>
 
       <div class="container-btn">
         <a class="btn" href="/archive">

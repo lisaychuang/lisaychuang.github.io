@@ -2,10 +2,7 @@
 layout: post
 title:  "Berlin tech events 4/28 - 5/9"
 date:   2017-04-28 07:36:29 -0400
-tags: 
-  - Nomad
-  - Germany
-  - Events
+tags: [Nomad, Germany, Events]
 description: 
 image: http://www.getsready.com/wp-content/uploads/2016/10/berlin-beautiful-road.jpg
 ---
