@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "An adventure into code"
-date:   2017-03-27 16:45:52 -0400
+title:  "An adventure into Code"
+date:   2017-03-29 11:38:18 -0400
 ---
 
 
