@@ -1,7 +1,8 @@
 # Site settings
 baseurl: "" 
 
-# WTF IS THIS SHIT?????!!!!!!! :O
+# One type of collection of posts, called "my_tags"
+# Find in the the folder ./_my_tags
 collections:
   my_tags:
     output: true
@@ -10,7 +11,7 @@ collections:
 # Color settings (Hex value without #)
 color_alpha: feeaeb
 color_beta: 05009e
-tag_dir: "tags"
+
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
@@ -44,6 +45,11 @@ sass:
 # Gems
 gems: [jekyll-sitemap, octopress-autoprefixer, jekyll-paginate, jekyll-feed]
 
+
+# For markdown files of type my_tags (found in ./my_tags)
+# in all paths across the site (kind of like *.*)
+# use "tag_index" as a default layout (./_layouts/tag_index.html)
+# unless explicitly specified in the top metadata stuff
 defaults:
   -
     scope:
