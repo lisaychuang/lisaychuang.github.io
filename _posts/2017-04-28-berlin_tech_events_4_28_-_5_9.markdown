@@ -17,7 +17,7 @@ If you are in town, definitely check out some of the great events happening!  If
 Thanks!
 Lisa
 
-```April 28th```
+### April 28th
 
 **Fab Lab open day (5-8pm)**
 [Fab Lab Berlin](https://fablab.berlin/en/) is an open digital fabrication studio where you can learn how to use 3D printers, laser cutters, CNC routers, design software and electronics to make (almost) anything you want.   It is part of the international Fab Lab network and offer access to a professional DIY studio and a great community of makers.
@@ -28,21 +28,21 @@ Lisa
 **Gallery Weekend in Berlin (6-9pm)**
 It's the annual [Gallery Weekend in Berlin](http://www.gallery-weekend-berlin.de/) taking place from April 28-  30th.   Not a typical "tech" event, but galleries around Berlin will be hosting programs like: mixed media performance and fashion show by [MICHAEL MÜLLER](http://www.galeriethomasschulte.de/en/artists/michael-mueller/) , screening of [JOHN BOCK's](https://www.berlinischegalerie.de/kalender/details/?tx_cal_controller%5Btype%5D=tx_cal_phpicalendar&tx_cal_controller%5Buid%5D=1101&tx_cal_controller%5Bview%5D=event&tx_cal_controller%5Byear%5D=2017&tx_cal_controller%5Bmonth%5D=04&tx_cal_controller%5Bday%5D=29&cHash=0e79e4a319018ae4ab5613afb647a540) 90min feature film,  and a fascinating presentation by [Hanne Darboven](http://www.eam-collection.de/events/) on her elaborated writing system - her own mathematical method used to record time!
 
-```April 29```
+### April 29
 
 **Sylius and Symfony 3 hackathon (4/29 - 4/30)**
 [Sylius](http://sylius.org/) is a community driven, Open Source and Symfony based ecommerce framework. Pawel Jedrzejewski, the founder of sylius.org, will be giving a quickstart workshop into Sylius to kickoff this[ 2-day hackathon. ](https://www.meetup.com/CODING-BERLIN/events/238952133/)
 
 Some brands using Sylius: [Popsugar](https://musthave.popsugar.com/), [Klink Delivery](https://klinkdelivery.com/), [Ovidias](http://ovidias.com/).  
 
-```April 30```
+### April 30 
 **Peer Lab launch (12:30pm - 2:30pm)**
 [Peer Lab globalchapters](http://peerlab.community/) hosts open sessions, where developers come together for a peer-based collaborative learning lab. SoundCloud Berlin will be hosting the [launch of Berlin Peer Lab](https://www.meetup.com/Peer-Lab-Berlin/events/239326259/) at their office!
 
-```May 1 Public Holiday - Labor Day```
+### May 1 Public Holiday - Labor Day
 May 1st is a public holiday! No specific tech events today
 
-```May 2```
+### May 2
 
 **Mobile commerce lunch with Gabriel Le Roux (12:30pm - 2pm)**
 Gabriel Le Roux is Head of Europe Startup Growth @Braintree, a Paypal Service.
@@ -59,7 +59,7 @@ This is a Vue.js meetup for Vue.js users, fans and all who are interested in lea
 
 [Thorsten Eckel ](https://www.meetup.com/Vue-js-Berlin/events/237722552/)will be sharing insights about his project vue-spine²! 
 
-```May 3```
+### May 3
 
 **AMP Meetup feat. Google (7pm - 9pm)**
 Join us for a casual evening of tech talks and networking around Accelerated Mobile Pages, brought to you by awesome Google speakers and Zalando. [Listen to talks](https://www.meetup.com/Zalando-Tech-Events-Berlin/events/239183474/) of Malte Ubl about "Beautiful, interactive AMP pages" and Paul Bakaus about "Progressive Web AMPs". 
@@ -85,7 +85,7 @@ Talk 1: Conversational AI: Building clever chatbots (Tom Bocklisch, LASTMILE - 3
 
 Talk 2: 2b|!2b - Generating poetry with neural networks (Aleksey Tikhonov & Ivan Yamshchikov, Yandex - 35 min)
 
-```May 4```
+### May 4
 
 **Mozilla Presents: Web Assembly, Web Security, Rust (6:30pm - )**
 [A casual evening of tech talks and networking,](https://www.meetup.com/Zalando-Tech-Events-Berlin/events/238078772/) brought to you by awesome Mozillian speakers. This event will start with a brief intro into the 2017 Mozilla tech road map with three talks featuring: Web Assembly with Lin Clark, Web Security with Johann Hofmann, Rust with Florian Gilcher.
@@ -103,7 +103,7 @@ During this talk, [Andreas Nauerz will talk about Ebay's journey](https://www.me
 
 Amazon analysed top mobile games looking for trends and best practices to guide your own development as you work to fully realise your fan base. We'll present our research and describe how successful games extend their Minimum Viable Product to a Minimum Viable Business, based on game, monetisation, and user acquisition loops. We'll explore the importance of fans to alternative engagement and monetisation options.
 
-```May 5```
+### May 5
 
 **CSS Conf EU (9am - 10pm)**
 
@@ -111,13 +111,13 @@ Amazon analysed top mobile games looking for trends and best practices to guide 
 
 CSSconf EU lineup unites top international speakers and newcomers with fresh ideas. They will discuss cutting-edge technologies and questions around front-end development and web design – with a specific focus on CSS.
 
-```May 6 - 7```
+### May 6 - 7
 **JSConf EU (9am - 11pm)**
 [JSConf EU](http://2017.jsconf.eu/) is a professional, not-for-profit, labour-of-love conference for the JavaScript community. It’s a two day affair, with many related side events in the days surrounding it. 
 
 There will be ~45 presentations spread over two days with topics ranging from deep technical journeys into JavaScript and what can be done with it to the big question of why we are all doing this and how we could do it better.
 
-```May 8```
+### May 8
 **The (almost) lost art of Smalltalk (7pm - 9pm)**
 
 Smalltalk is the grandfather of all Object-Oriented Programming languages. . Even 40 years after its inception, no other language can hold a candle to the elegance and purity of this dinosaur of computer science.
@@ -137,7 +137,7 @@ They are in town for JSConf and are kind enough to stay a bit longer and join us
 **How to become a self-driving car engineer (7:15pm - )**
 Learn how Udacity[ trains engineers to work on autonomous vehicles!](https://www.meetup.com/Berlin-Self-Driving-Cars-Autonomous-Mobility/events/239159311/) Topics include deep learning, computer vision, sensor fusion, localization, control, path planning, and system integration. Get up to speed on the technical challenges and trends of self driving vehicles and the autonomous driving industry. See samples of projects that Udacity students build to learn and showcase their autonomous vehicle skills.
 
-```May 9```
+### May 9
 
 **Women Who Code: Hack Evening  (7pm - 8pm)**
 [Hack Evenings are biweekly sessions](https://www.meetup.com/Women-Who-Code-Berlin-Germany/events/239461919/) where members are invited to join and learn coding / work on projects together. 
