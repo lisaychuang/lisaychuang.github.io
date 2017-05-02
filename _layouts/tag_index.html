@@ -5,6 +5,7 @@ layout: default
   <div class="grid--double">
     <h1 class="section-header">{{ page.title }}</h1>
     <ul class="container-triple" itemscope itemtype="http://schema.org/Blog">
+
       {% for post in site.tags[page.title] %}
         <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
           <a class="preview__link wow slideInUp" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
