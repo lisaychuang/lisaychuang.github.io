@@ -22,7 +22,8 @@ default_img:
 
 # Profile settings
 social:
-  twitter: 
+  twitter: https://twitter.com/bestcapetownSA
+  github: https://github.com/lisaychuang
 
 # Build settings
 exclude: ["node_modules", "gulpfile.js", "assets/js/app.js", "README.md", "Gemfile", "Gemfile.lock"]
