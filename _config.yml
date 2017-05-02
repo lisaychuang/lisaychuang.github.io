@@ -4,7 +4,7 @@ baseurl: ""
 # Color settings (Hex value without #)
 color_alpha: feeaeb
 color_beta: 05009e
-
+tag_dir: "tags"
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
@@ -36,4 +36,4 @@ sass:
   style: compressed
 
 # Gems
-gems: [jekyll-sitemap, octopress-autoprefixer]
+gems: [jekyll-sitemap, octopress-autoprefixer, jekyll-paginate, jekyll-feed]

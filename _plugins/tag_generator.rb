@@ -6,6 +6,10 @@ module Jekyll
       @base = base
       @dir = dir
       @name = 'index.html'
+      puts @site
+      puts @base
+      puts @dir
+      puts @name
 
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
@@ -27,5 +31,4 @@ module Jekyll
       end
     end
   end
-
 end
