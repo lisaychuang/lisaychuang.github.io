@@ -147,10 +147,11 @@ It is not programming language or technology specific - if you are eager to spen
 **MySQL Dabatase talks (2pm - 8pm)**
 [An afternoon of MySQL Database technical talks ](https://www.meetup.com/Berlin-MySQL-NoSQL/events/239302413/)held by Percona University
 
-Talk 1: What’s New in MySQL and MongoDB Ecosystem 
-Talk 2: MySQL vs MongoDB - When to Use Which Technology?
-Talk 3: MySQL In the Cloud: Migration, Best Practices, High Availability, Scaling
-Talk 4: Simple Steps for Building a Scalable BI Solution on MySQL 5.7, its JSON functionality and ElasticSearch
-Talk 5: Monitoring MySQL with Prometheus
-Talk 6: MySQL and MongoDB Monitoring and Optimization with Percona Monitoring and Management 
-
+<ol>
+<li> What’s New in MySQL and MongoDB Ecosystem </li>
+<li> MySQL vs MongoDB - When to Use Which Technology? </li>
+<li> MySQL In the Cloud: Migration, Best Practices, High Availability, Scaling </li>
+<li> Simple Steps for Building a Scalable BI Solution on MySQL 5.7, its JSON functionality and ElasticSearch </li>
+<li> Monitoring MySQL with Prometheus </li>
+<li> MySQL and MongoDB Monitoring and Optimization with Percona Monitoring and Management </li>
+</ol>
