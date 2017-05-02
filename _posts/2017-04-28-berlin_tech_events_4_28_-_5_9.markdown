@@ -10,8 +10,6 @@ image: http://www.getsready.com/wp-content/uploads/2016/10/berlin-beautiful-road
 
 I'm currently in Berlin, Germany and will be attending [JSConf EU on May 6-7, 2017](http://2017.jsconf.eu/)!
 
-![My Image](/assets/images/placeholders/placeholder-11.jpg)
-
 Browsing through Meetup.com, I've curated a list of interesting tech-related meetups happening in Berlin from today to May 9th.  
 
 If you are in town, definitely check out some of the great events happening!  If there are other events you'd like to share, please do so in the comments.
