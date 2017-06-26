@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lessons learned from pair-programming"
-date:   2017-06-26 15:19:00 +0000
+date:   2017-06-26 11:19:01 -0400
 ---
 
 
@@ -25,7 +25,7 @@ Given that I went nomadic last year, I thought it would be fun to create a trave
 
 After searching through some of my favorite travel websites, I decided to scrape the data off [Lonely Planet's](https://www.lonelyplanet.com/) website.  On the website, there's a **Travel Inspiration** section where users can explore destinations based on themes.
 
-![](http://)
+![](https://preview.ibb.co/fVDniQ/Lonely.png)
 
 I will document my process of ideation and development in the next blog! 
 
