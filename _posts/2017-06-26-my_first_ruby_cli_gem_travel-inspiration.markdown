@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My first Ruby CLI gem! travel-inspiration"
-date:   2017-06-26 15:53:33 +0000
+date:   2017-06-26 11:53:34 -0400
 ---
 
 
