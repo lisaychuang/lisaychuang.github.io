@@ -15,14 +15,16 @@ For my parents, I noticed they often plan trips based on a theme.  For architect
 
 Going through [Lonely Planet's website,](https://www.lonelyplanet.com/) I noticed there's a Travel Inspiration section on the homepage!
 
+![](https://preview.ibb.co/fVDniQ/Lonely.png)
+
 1. There are 12 themes
 2. Upon selecting a theme, the [next page](https://www.lonelyplanet.com/adventure-travel/) displays tips, blogs, videos, related tours, and 6 recommended destinations.
 3. Selecting a destination, the [next page](https://www.lonelyplanet.com/new-zealand) displays top experiences, survival guide filled with useful information and related articles!
 
 
-# Let's review the project requirements:
+## Let's review the project requirements:
 
-*1. Provide a CLI
+1. Provide a CLI
 2. CLI must provide access to data from a web page.
 3. The data provided must go at least one level deep, generally by showing the user a list of available data and then being able to drill down into a specific item.
 4. The CLI application can not be a Music CLI application as that is too similiar to the other OO Ruby final project. Also please refrain from using Kickstarter as that was used for the scraping 'code along'. Look at the example domains below for inspiration.
@@ -33,7 +35,7 @@ Reviewing the project requirements, I was confident I can achieve all points usi
 
 I decided to name my Ruby CLI Gem: **travel-inspiration**
 
-# My Ruby Gem provides:
+## My Ruby Gem provides:
 1. A CLI with an interfact that users can interact with
 
 2. Scrape data from Lonely Planet's website
@@ -50,7 +52,7 @@ I decided to name my Ruby CLI Gem: **travel-inspiration**
 
 6. I published my gem to RubyGems, you can find [travel_inspiration here!](https://rubygems.org/gems/travel_inspiration) . You can also view my[ Github repo code](https://github.com/lisaychuang/travel_inspiration_gem), and a [video demo](https://youtu.be/anf_NTuTVuQ) here!
 
-![](https://youtu.be/anf_NTuTVuQ)
+
 
 
 
