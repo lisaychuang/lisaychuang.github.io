@@ -56,7 +56,7 @@ I decided to name my Ruby CLI Gem: **travel_inspiration**
 
 First step to creating a Ruby gem is, well, learning how to create a Ruby Gem!  A quick Google search returns over 1million results! 
 
-In Avi's video walkthrough, he mentioned we can use Budler to create a gem. Following the [Budler guide](https://bundler.io/v1.14/guides/creating_gem.html), I created a Ruby gem:
+In Avi's video walkthrough, he mentioned we can use Bundler to create a gem. Following the [Bundler guide](https://bundler.io/v1.14/guides/creating_gem.html), I created a Ruby gem:
 
 ```bundle gem travel_inspiration```
 
@@ -73,7 +73,7 @@ Rakefile
 
 ```
 
-## What files are pre-populated by bundle gem?
+## What files are pre-populated by bundler gem?
 
 ### /bin directory
 
