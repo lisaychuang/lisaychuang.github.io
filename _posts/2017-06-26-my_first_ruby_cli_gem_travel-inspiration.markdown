@@ -36,7 +36,7 @@ Reviewing the project requirements, I was confident I can achieve all points usi
 I decided to name my Ruby CLI Gem: **travel_inspiration**
 
 ## My Ruby Gem provides:
-1. A CLI with an interfact that users can interact with
+1. A CLI with an interface that users can interact with
 
 2. Scrape data from Lonely Planet's website
 
@@ -116,7 +116,7 @@ require "travel_inspiration/cli"
 
 *  ```.gitignore```  defines paths to ignore in git versions
 
-*  ```Gemfile```  [define a project gems dependency](http://b.j15e.com/ruby/2013/06/28/gemfile-gemspec-explained.html), deal with dependencies version and lock versions to use the same environment across developpers & deployments.
+*  ```Gemfile```  [define a project gems dependency](http://b.j15e.com/ruby/2013/06/28/gemfile-gemspec-explained.html), deals with dependencies version and lock versions to use the same environment across developers & deployments.
 
 When using a Gemfile, bundler is resolving each gem's gemspec and gather them all to find out what conflicts might occurs and what which most up to date version of a gem is compatible among all your dependencies.
 
@@ -130,7 +130,7 @@ gemspec
 ```
 
 
-* ```travel_inspiratoin .gemspec``` is the way to define a ruby gem, publish it on rubygems.org and install them with the ```gem``` command.
+* ```travel_inspiration .gemspec``` is the way to define a ruby gem, publish it on rubygems.org and install them with the ```gem``` command.
 
 
 In this file, there's many pre-populated fields and comments. This is where I defined attributes of my gem such has the gem name, authors details, gem summary & description, executables, require paths and dependency versioning.
@@ -179,7 +179,7 @@ I have included ```bundler, rake, and pry```  as development dependencies.
 
 I have included ```nokogiri and colorize```  as development dependencies.
 
-[Colorize](https://github.com/fazibear/colorize) is a Ruby gem developed by [Michał Kalbarczyk](Michał Kalbarczyk), an engineer based on Poland. It is a:
+[Colorize](https://github.com/fazibear/colorize) is a Ruby gem developed by [Michał Kalbarczyk](https://github.com/fazibear), an engineer based on Poland. It is a:
 
 > Ruby gem for colorizing text using ANSI escape sequences. Extends String class or add a ColorizedString with methods to set text color, background color and text effects.
 
@@ -192,7 +192,7 @@ I included this gem in my CLI logic, highlighting questions requesting user inpu
 
 ## Time to create my Ruby CLI gem
 
-To start, I will need to scrape the THEME data from  [Lonely Planet's website,](https://www.lonelyplanet.com/) website.  I created a new file in my ```/lib``` directory: ```themes.db``` 
+To start, I will need to scrape the THEME data from  [Lonely Planet's website](https://www.lonelyplanet.com/).  I created a new file in my ```/lib``` directory: ```themes.db``` 
 
 ### Themes.rb
 
@@ -200,10 +200,10 @@ The purpose of this file is to: SCRAPE Lonely Planet homepage's Travel Inspirati
 
 This is achieved through three class methods:  
 
-1. **self.list_theme_names**
+1. **#self.list_theme_names**
    RETURN the result from scraping, listing 12 themes
 
-2. **self.scrape_themes**
+2. **#self.scrape_themes**
     * Access [Lonely planet homepage](https://www.lonelyplanet.com) through open-uri
 		* Parse webpage to XML using Nokogiri
 		* Select the corresponding themes carousel slides
@@ -211,45 +211,13 @@ This is achieved through three class methods:
 		* Push each theme into an array: themes_list
 		* Return themes_list array
 
-3. **self.url_for_theme_name(theme_name)**
+3. **#self.url_for_theme_name(theme_name)**
    Create the URL for each theme, used to scrape the top 6 destinations in ```destinations.rb```
 
-In hindset, I didn't need the ```self.url_for_theme_name(theme_name)``` method since I have already stored theme URLs in each instance for step 2.
+In hindsight, I didn't need the ```self.url_for_theme_name(theme_name)``` method since I have already stored theme URLs in each instance for step 2.
 
 
-```
-require 'nokogiri'
-require 'open-uri'
-
-module TravelInspiration
-    class Theme
-        attr_accessor :name, :url
-
-        def self.list_theme_names
-            self.scrape_themes
-        end
-
-        def self.scrape_themes
-            themes_list = []
-            doc = Nokogiri::HTML(open("https://www.lonelyplanet.com/"))
-            themes = doc.search('div.slick-track a.slick-slide') #selects carousel slides
-            themes.each_with_index{|theme, index|
-                if index < 12 then
-                    new_theme = TravelInspiration::Theme.new #create theme instance
-                    new_theme.name = theme.css("p").text     #assign theme name
-                    new_theme.url = theme.attr("href")       #assign theme url for destination #scraping
-                    themes_list[index] = new_theme
-                end
-            }
-            themes_list
-        end
-
-        def self.url_for_theme_name(theme_name)
-            "https://www.lonelyplanet.com/#{theme_name.downcase.gsub!(/[\s,]+/,"-")}/"
-        end
-    end
-end
-```
+![](https://gist.github.com/lisaychuang/a179656304f5e9cb9ea439ad4b28050a)
 
 
 ### Destinations.rb
